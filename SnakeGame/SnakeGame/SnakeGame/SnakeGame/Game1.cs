@@ -19,7 +19,7 @@ namespace SnakeGame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Texture2D snakeTexture;
+        Texture2D snakeTexture, titlescreen, GameOver;
         Snake snake1;
         public Rectangle Pellet;
         Song ME;
@@ -28,6 +28,8 @@ namespace SnakeGame
         float timeRemaining = 0.0f;
         float timeTotal = 0.2f;
         Color[] WhiteScheme = { Color.Black, Color.Purple, Color.Black, Color.Purple, Color.Black, Color.Purple };
+        enum GameStates { TitleScreen, Playing, GameOver };
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -80,33 +82,56 @@ namespace SnakeGame
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed) this.Exit();
             KeyboardState keyState = Keyboard.GetState();
 
-
-            if (keyState.IsKeyDown(Keys.Down) && snake1.Facing != 2) snake1.Facing = 0;
-            else if (keyState.IsKeyDown(Keys.Right) && snake1.Facing != 3) snake1.Facing = 1;
-            else if (keyState.IsKeyDown(Keys.Up) && snake1.Facing != 0) snake1.Facing = 2;
-            else if (keyState.IsKeyDown(Keys.Left) && snake1.Facing != 1) snake1.Facing = 3;
-
-
-            if (snake1.CheckCollisions(this.Window)) snake1.isAlive = false;
-
-
-            if (timeRemaining == 0.0f)
+            switch (gameState)
             {
-                snake1.Update();
+                case GameStates.TitleScreen:
+                    titleScreenTimer +=
+                        (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                    if (titleScreenTimer >= titleScreenDelayTime)
+                    {
+                        if ((Keyboard.GetState().IsKeyDown(Keys.Space)) ||
+                            (GamePad.GetState(PlayerIndex.One).Buttons.A ==
+                            ButtonState.Pressed))
+                        {
+
+                            gameState = GameStates.Playing;
+                        }
+                    }
+                    break;
+
+                case.GameStates.Playing:
+
+                    if (keyState.IsKeyDown(Keys.Down) && snake1.Facing != 2) snake1.Facing = 0;
+                    else if (keyState.IsKeyDown(Keys.Right) && snake1.Facing != 3) snake1.Facing = 1;
+                    else if (keyState.IsKeyDown(Keys.Up) && snake1.Facing != 0) snake1.Facing = 2;
+                    else if (keyState.IsKeyDown(Keys.Left) && snake1.Facing != 1) snake1.Facing = 3;
 
 
-                if (snake1.DidEatPellet(Pellet)) NewPellet();
+                    if (snake1.CheckCollisions(this.Window)) snake1.isAlive = false;
 
-                timeRemaining = timeTotal;
+
+                    if (timeRemaining == 0.0f)
+                    {
+                        snake1.Update();
+
+
+                        if (snake1.DidEatPellet(Pellet)) NewPellet();
+
+                        timeRemaining = timeTotal;
+                    }
+                    timeRemaining = MathHelper.Max(0, timeRemaining -
+                   (float)gameTime.ElapsedGameTime.TotalSeconds);
+
             }
-            timeRemaining = MathHelper.Max(0, timeRemaining -
-           (float)gameTime.ElapsedGameTime.TotalSeconds);
+                    base.Update(gameTime);
+            }
+        
 
-            base.Update(gameTime);
-        }
         public void NewPellet()
         {
             Pellet = new Rectangle(
@@ -114,6 +139,7 @@ namespace SnakeGame
                rand.Next(25, this.Window.ClientBounds.Height - 25),
                16, 16);
         }
+    
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
