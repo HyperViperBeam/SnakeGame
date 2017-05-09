@@ -1,0 +1,9 @@
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\SQUARE.xnb
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.xnb
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Apple_Bite-Simon_Craggs-1683647397.xnb
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.wma
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Snakes on a Game.exe
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Snakes on a Game.pdb
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.exe
+C:\Users\eahscs\Desktop\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.pdb

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>SQUARE.BMP</Source>
+      <Name>SQUARE</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\SQUARE.xnb</Output>
+      <Time>2014-10-24T07:41:35.7792-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Om.wma</Source>
+      <Name>Om</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Om.xnb</Output>
+      <Extra>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Om.wma</Extra>
+      <Time>2014-10-24T07:41:35.7782-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pew.wma</Source>
+      <Name>Pew</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Pew.xnb</Output>
+      <Time>2014-10-24T07:41:35.7792-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sneeze.wma</Source>
+      <Name>Sneeze</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Sneeze.xnb</Output>
+      <Time>2014-10-24T07:41:35.7812-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Go! Bwaaaah!!!.wma</Source>
+      <Name>Bwaaaah</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\Bwaaaah.xnb</Output>
+      <Time>2014-10-24T07:41:35.7182-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-04-18T11:24:14.1308-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
