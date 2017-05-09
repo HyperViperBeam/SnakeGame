@@ -1,0 +1,20 @@
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\SnakeGame.exe
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\SnakeGame.pdb
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\SnakeGame.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\SnakeGame.exe
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\SnakeGame.pdb
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.xnb
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Apple_Bite-Simon_Craggs-1683647397.xnb
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.wma
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\SQUARE.xnb
