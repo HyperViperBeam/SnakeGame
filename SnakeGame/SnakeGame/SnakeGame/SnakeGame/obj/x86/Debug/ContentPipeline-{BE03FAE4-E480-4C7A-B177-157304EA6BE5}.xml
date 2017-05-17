@@ -9,7 +9,7 @@
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.xnb</Output>
       <Extra>C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.wma</Extra>
-      <Time>2017-05-09T13:04:48.2340921-04:00</Time>
+      <Time>2017-05-17T13:05:37.2551416-04:00</Time>
     </Item>
     <Item>
       <Source>Apple_Bite-Simon_Craggs-1683647397.wav</Source>
@@ -18,7 +18,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Apple_Bite-Simon_Craggs-1683647397.xnb</Output>
-      <Time>2017-05-09T13:04:52.1209098-04:00</Time>
+      <Time>2017-05-17T13:05:37.1802441-04:00</Time>
     </Item>
     <Item>
       <Source>SQUARE.BMP</Source>
@@ -27,7 +27,25 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\SQUARE.xnb</Output>
-      <Time>2017-05-09T13:05:53.2650011-04:00</Time>
+      <Time>2017-05-17T13:05:37.2561386-04:00</Time>
+    </Item>
+    <Item>
+      <Source>snakepic.jpg</Source>
+      <Name>snakepic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\snakepic.xnb</Output>
+      <Time>2017-05-17T13:05:37.3168532-04:00</Time>
+    </Item>
+    <Item>
+      <Source>fail.jpg</Source>
+      <Name>fail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\fail.xnb</Output>
+      <Time>2017-05-17T13:05:37.2581437-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

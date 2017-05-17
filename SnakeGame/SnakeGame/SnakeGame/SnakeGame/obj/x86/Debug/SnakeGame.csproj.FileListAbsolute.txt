@@ -18,3 +18,5 @@ C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x8
 C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Apple_Bite-Simon_Craggs-1683647397.xnb
 C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Guilty Gear Xrd -SIGN- OST Magnolia Éclair.wma
 C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\SQUARE.xnb
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\snakepic.xnb
+C:\Users\eahscs\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\fail.xnb

@@ -29,6 +29,9 @@ namespace SnakeGame
         float timeTotal = 0.2f;
         Color[] WhiteScheme = { Color.Black, Color.Purple, Color.Black, Color.Purple, Color.Black, Color.Purple };
         enum GameStates { TitleScreen, Playing, GameOver };
+        GameStates gameState = GameStates.TitleScreen;
+        private float titleScreenTimer = 0f;
+        private float titleScreenDelayTime = 1f;
 
         public Game1()
         {
@@ -50,6 +53,7 @@ namespace SnakeGame
             MediaPlayer.Play(ME);
             snake1.effect = crunch;
             NewPellet();
+            titlescreen = Content.Load<Texture2D>("snakepic");
 
             base.Initialize();
         }
@@ -104,7 +108,7 @@ namespace SnakeGame
                     }
                     break;
 
-                case.GameStates.Playing:
+                case GameStates.Playing:
 
                     if (keyState.IsKeyDown(Keys.Down) && snake1.Facing != 2) snake1.Facing = 0;
                     else if (keyState.IsKeyDown(Keys.Right) && snake1.Facing != 3) snake1.Facing = 1;
@@ -126,6 +130,7 @@ namespace SnakeGame
                     }
                     timeRemaining = MathHelper.Max(0, timeRemaining -
                    (float)gameTime.ElapsedGameTime.TotalSeconds);
+                    break;
 
             }
                     base.Update(gameTime);
@@ -147,7 +152,13 @@ namespace SnakeGame
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Green);
-
+            if (gameState == GameStates.TitleScreen)
+            {
+                spriteBatch.Draw(titlescreen,
+                    new Rectangle(0, 0, this.Window.ClientBounds.Width,
+                        this.Window.ClientBounds.Height),
+                        Color.White);
+            }
             spriteBatch.Begin();
             for (int i = 0; i < snake1.Count; i++)
             {
