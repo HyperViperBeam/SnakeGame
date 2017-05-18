@@ -23,6 +23,7 @@ namespace SnakeGame
         Random rnd = new Random();
         int speed = 0;
         public SoundEffect effect;
+        
 
         public Snake(int x, int y, int size, List<Color> colorScheme)
         {
@@ -123,7 +124,8 @@ namespace SnakeGame
             }
             else return false;
 
-        }
+    }
+    
         public Color getDrawColor(int part)
         {
             if (part >= partColor.Count())
@@ -138,5 +140,6 @@ namespace SnakeGame
         {
             return snakeList[X];
         }
+
     }
 }
