@@ -120,7 +120,7 @@ namespace SnakeGame
                     else if (keyState.IsKeyDown(Keys.Left) && snake1.Facing != 1) snake1.Facing = 3;
 
 
-                    if (snake1.CheckCollisions(this.Window))
+                    if (snake1.CheckCollisions(this.Window)|| snake1.isAlive == false)
                     {
 
                         snake1.isAlive = false;
@@ -145,6 +145,7 @@ namespace SnakeGame
 
                 case GameStates.GameOver:
                     snake1 = new Snake(600, 200, 22, WhiteScheme.ToList());
+
                     break;
 
             }
@@ -177,28 +178,29 @@ namespace SnakeGame
                     new Rectangle(0, 0, this.Window.ClientBounds.Width,
                         this.Window.ClientBounds.Height), Color.White);
             }
-            if (gameState == GameStates.Playing)
+        if (gameState == GameStates.Playing)
+        {
+
+            for (int i = 0; i < snake1.Count; i++)
             {
-
-                for (int i = 0; i < snake1.Count; i++)
-                {
-
-                    spriteBatch.Draw(
-                       snakeTexture,
-                       new Rectangle((int)snake1.GetInstance(i).X, (int)snake1.GetInstance(i).Y, snake1.DrawSize, snake1.DrawSize),
-                       new Rectangle(0, 0, 16, 16),
-                       snake1.getDrawColor(i));
-                    spriteBatch.DrawString(
-                  Font1,
-                  "Score: " + score.ToString(),
-                  scoreLocation,
-                  Color.Cyan);
-                }
 
                 spriteBatch.Draw(
                    snakeTexture,
-                   Pellet,
-                   Color.Purple);
+                   new Rectangle((int)snake1.GetInstance(i).X, (int)snake1.GetInstance(i).Y, snake1.DrawSize, snake1.DrawSize),
+                   new Rectangle(0, 0, 16, 16),
+                   snake1.getDrawColor(i));
+                spriteBatch.DrawString(
+              Font1,
+              "Score: " + score.ToString(),
+              scoreLocation,
+              Color.Cyan);
+            }
+
+            spriteBatch.Draw(
+               snakeTexture,
+               Pellet,
+               Color.Purple);
+        }
                 if (gameState == GameStates.GameOver)
                 {
                     spriteBatch.Draw(GameOver,
@@ -209,16 +211,16 @@ namespace SnakeGame
                         Font1,
                         "Score: " + score.ToString(),
                         scoreLocation,
-                        Color.White);
+                        Color.Cyan);
                     
 
                     if (Keyboard.GetState().IsKeyDown(Keys.Space))
                     {
                         gameState = GameStates.TitleScreen;
                         score = 0;
-                    }
+                   }
                 }
-            }
+            
             spriteBatch.End();
 
             base.Draw(gameTime);

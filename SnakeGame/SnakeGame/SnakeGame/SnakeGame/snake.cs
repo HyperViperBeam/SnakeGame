@@ -93,7 +93,14 @@ namespace SnakeGame
         //Single Enemy Snake
         public Boolean CheckCollisions(GameWindow wind)
         {
-           
+            Rectangle Front = new Rectangle((int)snakeList[0].X, (int)snakeList[0].Y, 20, 20);
+            for (int i = 1; i < snakeList.Count; i++)
+            {
+                Rectangle Body = new Rectangle((int)snakeList[i].X, (int)snakeList[i].Y, 20, 20);
+                if (Front.Intersects(Body)) return true;
+
+            }
+
             int X = (int)snakeList[0].X;
             int Y = (int)snakeList[0].Y;
 
